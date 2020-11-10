@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+}
+.banner {
+    margin: auto;
+    padding: 70px 0;
+    height: 100%;
+    background: url("https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80") no-repeat center center / cover;
+}
+.jumbotron {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.cardi {
+    margin-right: 5%;
+}
