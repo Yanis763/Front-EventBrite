@@ -7,10 +7,10 @@ body {
     flex-direction: row;
 }
 .banner {
-    margin: auto;
-    padding: 70px 0;
-    height: 100%;
-    background: url("https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80") no-repeat center center / cover;
+    margin: 5% auto;
+    padding: 70px 30px;
+    height: 450px;
+    background: url("https://cdn.radiofrance.fr/s3/cruiser-production/2018/04/ae9a5742-d12a-4be0-ac93-dc3ab648ac09/1200x680_maxmatinnews322121.jpg") no-repeat fixed center;
 }
 .jumbotron {
     position: absolute;
