@@ -5,17 +5,26 @@ body {
 .container {
     display: flex;
     flex-direction: row;
+
 }
 .banner {
     margin: 5% auto;
     padding: 70px 30px;
     height: 450px;
-    background: url("https://cdn.radiofrance.fr/s3/cruiser-production/2018/04/ae9a5742-d12a-4be0-ac93-dc3ab648ac09/1200x680_maxmatinnews322121.jpg") no-repeat fixed center;
+    background: url("https://cdn.radiofrance.fr/s3/cruiser-production/2018/04/ae9a5742-d12a-4be0-ac93-dc3ab648ac09/1200x680_maxmatinnews322121.jpg") no-repeat center;
+}
+.banner-small {
+    margin: 5% auto;
+    padding: 70px 30px;
+    height: 350px;
+    width: 100%;
+    background: url("https://i.skyrock.net/9701/32679701/pics/1824729801_small_1.jpg") no-repeat center;
 }
 .jumbotron {
     position: absolute;
     bottom: 0;
     width: 100%;
+    height: 360px;
 }
 
 .cardi {
